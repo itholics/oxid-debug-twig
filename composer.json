@@ -1,0 +1,25 @@
+{
+    "name": "itholics/oxid-debug-twig",
+    "description": "",
+    "type": "oxideshop-component",
+    "keywords": [
+        "oxid",
+        "eshop",
+        "component"
+    ],
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "ITholics\\Oxid\\Component\\DebugTwig\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {},
+    "authors": [
+        {
+            "name": "ITholics Dev Team",
+            "email": "info@itholics.de"
+        }
+    ]
+}

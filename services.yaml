@@ -1,0 +1,4 @@
+services:
+  ITholics\Oxid\Component\DebugTwig\Application\Extension\Xdebug:
+    tags:
+      - 'twig.extension'
