@@ -1,11 +1,14 @@
 {
     "name": "itholics/oxid-debug-twig",
-    "description": "",
+    "description": "Twig extension to help debugging twig templates in OXID eShop 7.0.0+",
     "type": "oxideshop-component",
     "keywords": [
         "oxid",
         "eshop",
-        "component"
+        "component",
+        "twig",
+        "debug",
+        "xdebug"
     ],
     "license": "MIT",
     "version": "1.0.0",
@@ -14,7 +17,10 @@
             "ITholics\\Oxid\\Component\\DebugTwig\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "oxid-esales/oxideshop-ce": "^7.0",
+        "oxid-esales/twig-component": "^2.1"
+    },
     "require-dev": {},
     "authors": [
         {
